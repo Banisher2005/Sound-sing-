@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sound Sing</string>
+    <string name="app_tagline">Simultaneous Dual Audio Output</string>
+    
+    <!-- Notification -->
+    <string name="notification_channel_id">soundsing_routing_channel</string>
+    <string name="notification_channel_name">Sound Sing Routing Service</string>
+    <string name="notification_channel_desc">Active system audio capture and re-routing</string>
+    <string name="notification_title_active">Sound Sing Active</string>
+    <string name="notification_desc_active">Re-routing system audio to second output</string>
+    <string name="action_stop">Stop Routing</string>
+
+    <!-- General UI -->
+    <string name="nav_home">Home</string>
+    <string name="nav_devices">Outputs</string>
+    <string name="nav_guide">Guide</string>
+    <string name="nav_compat">Check</string>
+
+    <string name="status_idle">Engine Idle</string>
+    <string name="status_starting">Starting Routing…</string>
+    <string name="status_streaming">Actively Routing Audio</string>
+    <string name="status_silence">Audio Stream Silent or Blocked</string>
+    <string name="status_error">Audio Route Error</string>
+
+    <string name="btn_start_route">Start Second Audio</string>
+    <string name="btn_stop_route">Stop Second Audio</string>
+
+    <string name="silence_warning_title">No Audio Detected / Opted Out App</string>
+    <string name="silence_warning_desc">This app blocks audio capture (common with Netflix, Prime Video, Spotify, Disney+), or no media is currently playing. Android apps can opt out via allowAudioPlaybackCapture=false or DRM flags.</string>
+</resources>
